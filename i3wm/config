@@ -8,7 +8,7 @@ set $mod Mod1
 # workspace_layout tabbed <stacking|tabbed>
 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
-default_border pixel 1
+default_border pixel 10
 default_floating_border normal
 
 # Hide borders
@@ -21,7 +21,7 @@ bindsym $mod+n border normal
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font xft:URWGothic-Book 11
+font xft:JetBrains Mono 11
 
 # Use Mouse+$mod to drag floating windows
 floating_modifier $mod
@@ -69,7 +69,7 @@ bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
 bindsym $mod+Shift+h exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
 bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 bindsym $mod+Shift+x exec betterlockscreen -l blur -t 'Hello -> World()'
-bindsym $mod+Shift+p exec --no-startup-id ~/.config/rofi/bin/menu_powermenu
+bindsym $mod+Shift+p exec --no-startup-id ~/.config/rofi/bin/android_powermenu
 # focus_follows_mouse no
 
 # change focus
@@ -284,7 +284,7 @@ exec --no-startup-id pamac-tray
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 exec_always --no-startup-id picom --experimental-backends
-exec_always --no-startup-id wal -i /home/vivek/Pictures/paperplanes.jpeg >/dev/null 2>&1
+exec_always --no-startup-id wal -i /home/vivek/Pictures/itachi.jpg --saturate 0.5 >/dev/null 2>&1
 exec_always --no-startup-id cd .config/polybar && ./launch.sh
 
 # Color palette used for the terminal ( ~/.Xresources file )
@@ -380,7 +380,7 @@ gaps outer 0
 
 # Smart borders (draw borders around container only if it is not the only container on this workspace) 
 # on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
-smart_borders on
+# smart_borders on
 
 # Press $mod+Shift+g to enter the gap mode. Choose o or i for modifying outer/inner gaps. Press one of + / - (in-/decrement for current workspace) or 0 (remove gaps for current workspace). If you also press Shift with these keys, the change will be global for all workspaces.
 set $mode_gaps Gaps: (o) outer, (i) inner

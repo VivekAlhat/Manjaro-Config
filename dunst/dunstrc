@@ -2,7 +2,7 @@
     frame_width = 1
     frame_color = "#788388"
     
-    font = Noto Sans 10
+    font = JetBrains Mono 10
     
     # Allow a small subset of html markup:
     #   <b>bold</b>
@@ -77,7 +77,7 @@
     # The transparency of the window.  Range: [0; 100].
     # This option will only work if a compositing windowmanager is
     # present (e.g. xcompmgr, compiz, etc.).
-    transparency = 15
+    transparency = 35
     
     # Don't remove messages, if the user is idle (no mouse or keyboard input)
     # for longer than idle_threshold seconds.
@@ -197,21 +197,21 @@
 
 [urgency_low]
 timeout = 4
-background = "#0D1214"
-foreground = "#efdecb"
-frame_color = "#2B7B82"
+background = "#0a0b0b"
+foreground = "#d6c7c5"
+frame_color = "#d6c7c5"
 
 [urgency_normal]
 timeout = 8
-background = "#0D1214"
-foreground = "#efdecb"
-frame_color = "#2B7B82"
+background = "#0a0b0b"
+foreground = "#d6c7c5"
+frame_color = "#d6c7c5"
 
 [urgency_critical]
 timeout = 0
-background = "#0D1214"
-foreground = "#efdecb"
-frame_color = "#2B7B82"
+background = "#0a0b0b"
+foreground = "#d6c7c5"
+frame_color = "#d6c7c5"
 
 # Every section that isn't one of the above is interpreted as a rules to
 # override settings for certain messages.
