@@ -197,21 +197,21 @@
 
 [urgency_low]
 timeout = 4
-background = "#0a0b0b"
-foreground = "#d6c7c5"
-frame_color = "#d6c7c5"
+background = "#0C1015"
+foreground = "#d5d2d8"
+frame_color = "#d5d2d8"
 
 [urgency_normal]
 timeout = 8
-background = "#0a0b0b"
-foreground = "#d6c7c5"
-frame_color = "#d6c7c5"
+background = "#0C1015"
+foreground = "#d5d2d8"
+frame_color = "#d5d2d8"
 
 [urgency_critical]
 timeout = 0
-background = "#0a0b0b"
-foreground = "#d6c7c5"
-frame_color = "#d6c7c5"
+background = "#0C1015"
+foreground = "#d5d2d8"
+frame_color = "#d5d2d8"
 
 # Every section that isn't one of the above is interpreted as a rules to
 # override settings for certain messages.
